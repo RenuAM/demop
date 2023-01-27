@@ -5,7 +5,7 @@ import pandas as pd
 
 
 
-app = Flask(__name__, template_folder='templates)
+app = Flask(__name__, template_folder="templates")
 model = pickle.load(open("model.pkl", "rb"))
 col = pickle.load(open("columns.pkl","rb"))
 
